@@ -1,3 +1,17 @@
+
+.navbar {
+  background-color: #7a44ff;
+  flex-direction: column;
+}
+
+h2 {
+  color: white;
+  font-family: "Love Ya Like A Sister", cursive;
+}
+
+.butoni {
+  background-color: #7a44ff;
+
 @import url("https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap");
 .navbar {
   background-color: black;
@@ -58,6 +72,7 @@ div p {
 
 img {
   width: 50px;
+
 }
 
 /*# sourceMappingURL=main.css.map */
