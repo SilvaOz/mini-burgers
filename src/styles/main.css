@@ -10,13 +10,6 @@ body {
   font-weight: bold;
 }
 
-span {
-  color: #7a44ff;
-  font-weight: bold;
-  font-size: 1.7rem;
-  text-align: center;
-}
-
 .nav a {
   color: #7a44ff;
 }
@@ -25,17 +18,31 @@ span {
   width: 50px;
 }
 
+span {
+  color: #7a44ff;
+  font-weight: bold;
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+#banner {
+  background-image: url(../images/lidye-1Shk_PkNkNw-unsplash.jpg);
+  height: 80vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
 #banner h1 {
+  font-size: 8rem;
+  color: white;
   font-family: "Love Ya Like A Sister", cursive;
-  font-size: 5rem;
-  position: relative;
-  right: 200px;
-  bottom: 570px;
 }
 
 #banner p {
   font-size: 1.5rem;
   font-weight: bold;
+  color: white;
 }
 
 button.btn {
@@ -43,10 +50,6 @@ button.btn {
   font-size: 20px;
   border-radius: none;
   color: white;
-}
-
-.container {
-  margin-top: 100px;
 }
 
 .col-md {
@@ -70,6 +73,7 @@ button.btn {
 }
 
 div h2 {
+  margin: 100px 0 50px 0;
   font-size: 4rem;
   font-family: "Love Ya Like A Sister", cursive;
   color: #4b4c45;
@@ -78,13 +82,18 @@ div h2 {
 div h3 {
   font-family: "Love Ya Like A Sister", cursive;
   color: #4b4c45;
-  font-size: 3rem;
+  font-size: 2rem;
   text-align: center;
   margin: 30px 0;
 }
 
 div p {
   color: #4b4c45;
+}
+
+footer {
+  background-color: black;
+  text-align: right;
 }
 
 /*# sourceMappingURL=main.css.map */
