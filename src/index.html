@@ -1,16 +1,97 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="./styles/main.css">
+  <!---------------- bootstrap -------->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <title>Burgers</title>
+
   <link rel="stylesheet" href="styles/main.css" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-</head>
 
+</head>
 <body>
+
+<!------------------- Navbar ------------------->
+  <nav class="navbar navbar-expand-md fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <!-------------- LOGO -------------->
+        <img src="./images/hamburger.svg" alt="Logo" class="d-inline-block " id="logo">
+        <span>Benny's</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="active" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon text-b"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" tabindex="-1">
+        <ul class="nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">The idea</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!----------------------------- Banner ----------->
+  <div id="banner" class="container-fluid">
+    <div class="container pt-5 pb-5 my-5  ">
+      <h1>Benny's Burger</h1>
+      <p class="lead">Hands down, best burger in town</p>
+      <button type="button" class="btn ">See the menu</button>
+    </div>
+  </div>
+  <!-- <-----------------------MAIN----------------------->
+  <div class=" col-md col-xs col-sm col-lg" id="about-us">
+    <div>
+
+      <h2>The idea</h2>
+    </div>
+    <div class="row ">
+    <!--------------------- Columns   -------------->
+      <div class="col-md col-sm-6">
+        <img src="./images/care.svg" class="svg" alt="">
+        <h3>100% organic</h3>
+        <p class="text-left lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus quam ipsum
+          consequatur blanditiis
+          corporis, pariatur asperiores nostrum tenetur. Dolor ullam quidem rem, asperiores minima vitae esse
+          distinctio, ipsum ab, dolorum earum. Provident incidunt quas voluptates, quia nemo quasi cum perferendis.
+        </p>
+      </div>
+      <div class="col-md col-sm-6">
+        <img src="./images/plant.svg" class="svg" alt="">
+        <h3>Vegan</h3>
+        <p class="text-left lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus quam ipsum
+          consequatur blanditiis
+          corporis, pariatur asperiores nostrum tenetur. Dolor ullam quidem rem, asperiores minima vitae esse
+          distinctio, ipsum ab, dolorum earum. Provident incidunt quas voluptates, quia nemo quasi cum perferendis.
+        </p>
+      </div>
+      <div class="col-md">
+        <img src="./images/heart.svg" class="svg" alt="">
+        <h3>No animal Cruelty</h3>
+        <p class="text-left lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus quam ipsum
+          consequatur blanditiis
+          corporis, pariatur asperiores nostrum tenetur. Dolor ullam quidem rem, asperiores minima vitae esse
+          distinctio, ipsum ab, dolorum earum. Provident incidunt quas voluptates, quia nemo quasi cum perferendis.
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- -----------------SECTION------------------------ -->
+
+<!-------------- FOOTER ------------->
+
 
 
  
@@ -59,10 +140,16 @@
     </div>
 
 
-    <!-- Custom scripts, edit above this line -->
-    <script src="scripts/index.js"></script>
-  </body>
-</html>
+<footer>
+  <div class="card-footer">
+    <small class="text-muted">Copyright 2023</small>
+  </div>
+</footer>
 
+
+  <!-- Script -->
+  <script src="scripts/index.js"></script>
+</body>
+</html>
 
 
