@@ -1,12 +1,17 @@
 @import url("https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap");
+@mixin fonts {
+    font-family: "Love Ya Like A Sister", cursive;
+}
+@mixin background($color) {
+    background-color: ($color);
+}
 
 body{
     margin: 0;
-    box-sizing: border-box;
 }
 // Navbar
 .navbar {
-    background-color: black;
+    @include background(black);
     font-size: 1.5rem;
     font-weight: bold;
 }
@@ -26,7 +31,7 @@ span {
 // BANNER IMG
 #banner  {
     background-image: url(../images/lidye-1Shk_PkNkNw-unsplash.jpg);
-    height: 80vh;
+    height: 75vh;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: bottom;   
@@ -35,15 +40,15 @@ span {
 #banner h1{
     font-size: 8rem;
     color: white;
-    font-family: "Love Ya Like A Sister", cursive;
+    @include fonts;
 }
 #banner p {
     font-size: 1.5rem;
     font-weight: bold;
-    color: white;
+    color: white;  
 }
 button.btn{
-    background-color: #7a44ff;
+    @include background(#7a44ff);
     font-size: 20px;
     border-radius: none;
     color: white;
@@ -71,12 +76,12 @@ button.btn{
 div h2 {
     margin: 100px 0 50px 0;
     font-size: 4rem;
-    font-family: "Love Ya Like A Sister", cursive;
+    @include fonts;
     color: #4b4c45;
 }
 // Columns Subtitle
 div h3 {
-    font-family: "Love Ya Like A Sister", cursive;
+    @include fonts;
     color: #4b4c45;
     font-size: 2rem;
     text-align: center;
@@ -88,6 +93,6 @@ div p {
 }
 // Footer
 footer{
-    background-color: black;
+    @include background(black);
     text-align: right;
 }
