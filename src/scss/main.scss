@@ -1,22 +1,8 @@
 
 // This is where you can import other stylesheets or write your scss cod
 // @import url("https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap"); 
+
 @import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
-
-.navbar-2{
-    background-color: #7a44ff;
-    flex-direction: column;
-}
-h2{
-    color: white;
-    font-family: "Love Ya Like A Sister", cursive; 
-   
-}
-.butoni{
-    background-color: #7a44ff;
-}
-
- 
 
 .navbar {
     
@@ -24,6 +10,7 @@ h2{
     font-size: 1.5rem;
     font-weight: bold;
 }
+
 span {
     color: #7a44ff;
     font-weight: bold;
@@ -73,4 +60,20 @@ div p{
 img {
     width: 50px;
 }
+
+.navbar-2{
+  background-color: #7a44ff;
+    flex-direction: column;
+}
+h2{
+    color: white;
+    font-family: "Love Ya Like A Sister", cursive; 
+   
+}
+
+
+
+
+
+
 
