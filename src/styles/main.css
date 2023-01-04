@@ -5,20 +5,6 @@
   font-weight: bold;
 }
 
-.navbar {
-  background-color: #7a44ff;
-  flex-direction: column;
-}
-
-h2 {
-  color: white;
-  font-family: "Love Ya Like A Sister", cursive;
-}
-
-.butoni {
-  background-color: #7a44ff;
-}
-
 span {
   color: #7a44ff;
   font-weight: bold;
@@ -72,6 +58,16 @@ div p {
 
 img {
   width: 50px;
+}
+
+.navbar-2 {
+  background-color: #7a44ff;
+  flex-direction: column;
+}
+
+.navbar-2 h4 {
+  color: white;
+  font-family: "Love Ya Like A Sister", cursive;
 }
 
 /*# sourceMappingURL=main.css.map */
