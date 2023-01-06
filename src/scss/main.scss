@@ -100,19 +100,15 @@ div p {
 footer{
     @include background(black);
     text-align: right;
-
+}
 
 // card section
 .navbar-2{
     font-family: 'Love Ya Like A Sister', cursive;
-  background-color: #7a44ff;
+    background-color: #7a44ff;
     flex-direction: column;
 }
- .navbar-2 h4{
+.navbar-2 h4{
     color: white;
     font-family: 'Love Ya Like A Sister', cursive; 
-
 }
-
-
- 
