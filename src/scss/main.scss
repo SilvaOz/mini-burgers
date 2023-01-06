@@ -94,21 +94,24 @@ div h3 {
 }
 // Columns text
 div p {
+    margin: 0 20px;
     color: #4b4c45;
-}
-// Footer
-footer{
-    @include background(black);
-    text-align: right;
 }
 
 // card section
 .navbar-2{
-    font-family: 'Love Ya Like A Sister', cursive;
+
+    @include fonts;   
     background-color: #7a44ff;
     flex-direction: column;
 }
 .navbar-2 h4{
     color: white;
-    font-family: 'Love Ya Like A Sister', cursive; 
+    @include fonts; 
+}
+// Footer
+footer{
+    @include background(black);
+    color: white;
+    text-align: right;
 }
