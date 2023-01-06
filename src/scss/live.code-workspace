@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "../../../live"
+		},
+		{
+			"path": "../../../Live-Coding"
+		},
+		{
+			"path": "../../../Gruppe5"
+		},
+		{
+			"path": "../../../uib_framework_benny-s-burgers-SilvaOz"
+		},
+		{
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "mini-burgers",
+		"livePreview.defaultPreviewPath": "/home/user/Desktop/mini-burgers/src/index.html"
+	}
+}
