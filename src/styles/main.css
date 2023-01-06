@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap");
+<<<<<<< HEAD
+=======
+
+>>>>>>> 6709e47d1640ac5d458b46fd5d5193ec0f26d706
 body {
   margin: 0;
 }
@@ -10,7 +14,11 @@ body {
 }
 
 .nav a {
+<<<<<<< HEAD
   color: #7A44FF;
+=======
+  color: #7a44ff;
+>>>>>>> 6709e47d1640ac5d458b46fd5d5193ec0f26d706
 }
 
 #logo {
@@ -18,7 +26,11 @@ body {
 }
 
 span {
+<<<<<<< HEAD
   color: #7A44FF;
+=======
+  color: #7a44ff;
+>>>>>>> 6709e47d1640ac5d458b46fd5d5193ec0f26d706
   font-weight: bold;
   font-size: 1.7rem;
   text-align: center;
@@ -45,7 +57,11 @@ span {
 }
 
 button.btn {
+<<<<<<< HEAD
   background-color: #7A44FF;
+=======
+  background-color: #7a44ff;
+>>>>>>> 6709e47d1640ac5d458b46fd5d5193ec0f26d706
   font-size: 20px;
   border-radius: none;
   color: white;
@@ -75,12 +91,20 @@ div h2 {
   margin: 100px 0 50px 0;
   font-size: 4rem;
   font-family: "Love Ya Like A Sister", cursive;
+<<<<<<< HEAD
   color: #4B4C45;
+=======
+  color: #4b4c45;
+>>>>>>> 6709e47d1640ac5d458b46fd5d5193ec0f26d706
 }
 
 div h3 {
   font-family: "Love Ya Like A Sister", cursive;
+<<<<<<< HEAD
   color: #4B4C45;
+=======
+  color: #4b4c45;
+>>>>>>> 6709e47d1640ac5d458b46fd5d5193ec0f26d706
   font-size: 2rem;
   text-align: center;
   margin: 30px 0;
@@ -88,7 +112,17 @@ div h3 {
 
 div p {
   margin: 0 20px;
+<<<<<<< HEAD
   color: #4B4C45;
+=======
+  color: #4b4c45;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: right;
+>>>>>>> 6709e47d1640ac5d458b46fd5d5193ec0f26d706
 }
 
 .navbar-2 {
