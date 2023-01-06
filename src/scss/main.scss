@@ -3,6 +3,13 @@
 // @import url("https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap"); 
 
 @import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+@mixin fonts {
+    font-family: "Love Ya Like A Sister", cursive;
+}
+@mixin background($color) {
+    background-color: ($color);
+}
+
 
 .navbar-2{
     font-family: 'Love Ya Like A Sister', cursive;
@@ -17,7 +24,14 @@
     font-family: 'Love Ya Like A Sister', cursive;
     font-size: 6rem;
 }
- 
+
+// Footer
+footer {
+    @include background(black);
+    color: white;
+    text-align: right;
+}
+
 
 
    
