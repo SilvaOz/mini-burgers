@@ -96,6 +96,7 @@ div p {
 // Footer
 footer{
     @include background(black);
+    color: white;
     text-align: right;
 }
 
