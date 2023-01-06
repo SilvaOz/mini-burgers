@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap");
-
 body {
   margin: 0;
 }
@@ -92,12 +91,6 @@ div p {
   color: #4b4c45;
 }
 
-footer {
-  background-color: black;
-  color: white;
-  text-align: right;
-}
-
 .navbar-2 {
   font-family: "Love Ya Like A Sister", cursive;
   background-color: #7a44ff;
@@ -112,6 +105,12 @@ footer {
 #contact {
   font-family: "Love Ya Like A Sister", cursive;
   font-size: 6rem;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: right;
 }
 
 /*# sourceMappingURL=main.css.map */
